@@ -15,7 +15,7 @@ public class PrintABCusingExecutors {
 		service.submit(()->System.out.print("B")).get();
 		service.submit(()->System.out.print("C")).get();
 		
-		System.out.print(" AAAAAAAAAAAASSSSSSSSSSAAA");
+		System.out.print(" AAAAAA");
 		i++;
 		}
 	}
